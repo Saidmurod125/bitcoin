@@ -1,0 +1,42 @@
+.post {
+  width: 1200px;
+
+  margin-top: 239px;
+  display: flex;
+  justify-content: space-between;
+  .c_flex {
+    width: 334px;
+    height: 92px;
+    display: flex;
+    img {
+      margin-top: 25px;
+    }
+  }
+}
+.gcap {
+  gap: 30px;
+  margin-top: 150px;
+}
+.boss {
+  background: #0d0d2b;
+  width: 1240px;
+  height: 457px;
+}
+.vocr {
+  margin-top: 100px;
+  margin-left: 280px;
+  width: 741px;
+  height: 138px;
+  justify-content: center;
+  h2 {
+    text-align: center;
+    width: 741px;
+    height: 60px;
+  }
+  p {
+    width: 622px;
+    height: 54px;
+    text-align: center;
+    margin-left: 50px;
+  }
+}

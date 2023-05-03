@@ -1,0 +1,130 @@
+.form_group-1 {
+  position: relative;
+  padding: 15px 0 0;
+}
+.textbox-1 {
+  width: 275px;
+  height: 30px;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 15px;
+  padding: 2px 0;
+  transition: border-color 0.2s;
+}
+.textbox-1::placeholder {
+  color: transparent;
+}
+.textbox-1:placeholder-shown ~ .textbox-lable-1 {
+  font-size: 15px;
+  cursor: text;
+  top: 19px;
+}
+.textbox-lable-1 {
+  display: block;
+  transition: 0.2s;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+.textbox-1:focus {
+  border-width: 2px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.textbox-1:focus ~ .textbox-lable-1 {
+  display: block;
+  transition: 0.2s;
+  font-size: 14px;
+  color: #11998e;
+  font-weight: 700;
+}
+.cankulator {
+  position: absolute;
+  background-color: #ffffff;
+  width: 942px;
+  height: 371px;
+  margin-left: 139px;
+  top: 2000px;
+
+  filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+}
+.topgtv {
+  display: flex;
+  padding-top: 62px;
+  margin-left: 48px;
+  button {
+    margin-left: 50px;
+  }
+}
+.dropdown {
+  position: relative;
+  width: 230px;
+  filter: url(#goo);
+
+  &__face,
+  &__items {
+    background-color: #fff;
+    padding: 21px;
+  }
+
+  &__face {
+    display: block;
+    position: relative;
+  }
+
+  &__items {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 100%;
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.93, 0.88, 0.1, 0.8);
+
+    &::before {
+      content: "";
+      background-color: #fff;
+      position: absolute;
+      bottom: 100%;
+      right: 20%;
+      height: 40px;
+      width: 20px;
+    }
+  }
+
+  &__arrow {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg) translateY(-50%);
+    transform-origin: right;
+  }
+
+  input {
+    display: none;
+
+    &:checked ~ .dropdown__items {
+      top: calc(100% + 25px);
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+svg {
+  display: none;
+}

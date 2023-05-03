@@ -1,0 +1,135 @@
+.btn {
+  background: #3671e9;
+  border-radius: 32px;
+  color: #ffffff;
+  width: 146px;
+  height: 59px;
+  &:hover {
+    background: gold;
+    color: black;
+    transition: 0.2s;
+  }
+}
+a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.01em;
+
+  /* Neutral / White */
+
+  color: #ffffff;
+}
+p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.01em;
+
+  /* Neutral / Grey 5 */
+
+  color: #e0e0e0;
+}
+h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+
+  /* Neutral / White */
+
+  color: #ffffff;
+}
+h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  /* or 60px */
+
+  /* Neutral / White */
+
+  color: #ffffff;
+}
+h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  /* or 60px */
+
+  /* Color / Primary */
+
+  color: #0d0d2b;
+}
+.mega {
+  width: 365px;
+  height: 40px;
+  display: flex;
+  margin-top: 146px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  p {
+    margin-top: 4px;
+    margin-left: 30px;
+  }
+
+  button {
+    background: #ffffff;
+    border-radius: 32px;
+  }
+}
+span {
+  color: #3671e9;
+}
+.botgtv {
+  margin-top: 20px;
+}
+
+h4 {
+  width: 160px;
+  height: 48px;
+
+  /* Heading / H3 */
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+
+  /* Color / Primary */
+
+  color: #0d0d2b;
+  //
+}
+.les_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  height: 216px;
+
+  background: #3671e9;
+  border-radius: 16px;
+}
+
+.textbox-1 {
+  background: none;
+  color: #ffffff;
+}

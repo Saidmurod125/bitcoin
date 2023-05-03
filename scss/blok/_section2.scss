@@ -1,0 +1,50 @@
+.bgacolor {
+  width: 100%;
+  height: 1290px;
+  background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+}
+.informtion {
+  h3 {
+    margin-top: -40px;
+    padding-top: 300px;
+    text-align: center;
+  }
+  .los__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.becous {
+  img {
+    padding-left: 40%;
+  }
+  justify-content: center;
+  width: 370px;
+  height: 433px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 20px 20px #d9cbf5;
+  border-radius: 16px;
+  button {
+    display: none;
+  }
+
+  &:hover {
+    background: #2b076e;
+    backdrop-filter: blur(125px);
+    button {
+      display: block;
+    }
+    h4 {
+      color: #ffffff;
+    }
+  }
+}
+.boty {
+  display: flex;
+  justify-content: center;
+}
+.dre {
+  display: flex;
+}

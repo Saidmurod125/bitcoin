@@ -1,0 +1,46 @@
+.bgcolor {
+  background-color: #0d0d2b;
+  width: 100%;
+}
+header {
+  margin-top: 75px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+  .heder__rayt {
+    display: flex;
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      li {
+        margin-right: 10px;
+        a {
+          width: 10px;
+          height: 10px;
+
+          text-decoration: none;
+          &:hover {
+            color: #3671e9;
+          }
+        }
+      }
+    }
+  }
+}
+.nav__left {
+  width: 588px;
+  height: 468px;
+  .btn {
+    a {
+      text-align: center;
+      gap: 5px;
+    }
+    img {
+      margin-top: 6px;
+    }
+  }
+}
